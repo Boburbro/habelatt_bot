@@ -1,0 +1,6 @@
+BOT_TOKEN = "7583988767:AAHPUSZpFr395DLttJJrhjsxm_CeaRHBg6s"
+WEBHOOK_HOST = "https://boburbro.pythonanywhere.com/"  
+WEBHOOK_PATH = "/webhook"
+WEBHOOK_URL = f"{WEBHOOK_HOST}{WEBHOOK_PATH}"
+WEBAPP_HOST = "0.0.0.0"
+WEBAPP_PORT = 8000 

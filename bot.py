@@ -31,6 +31,10 @@ async def webhook():
     else:
         abort(403)
 
+@app.route("/", methods=['GET'])
+async def webhook():
+    return "WORKING !!"
+
 # Setup webhook
 async def on_startup():
     await bot.set_webhook(config.WEBHOOK_URL)
